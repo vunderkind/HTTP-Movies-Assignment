@@ -9,9 +9,9 @@ const MovieCard = props => {
         Director: <em>{director}</em>
       </div>
       <div className="movie-metascore">
-        Metascore: <strong>{metascore}</strong>
+        Score from Metacritic: <strong>{metascore}</strong>
       </div>
-      <h3>Actors</h3>
+      <h3>List of Actors</h3>
 
       {stars.map(star => (
         <div key={star} className="movie-star">
